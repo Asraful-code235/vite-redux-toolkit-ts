@@ -31,7 +31,7 @@ const CustomerCard = ({ id, food, name }: Props) => {
             </h3>
           ))}
         </div>
-        <div className="mt-4 flex w-full items-end md:mt-0">
+        <div className="mt-4 flex w-full items-end md:mt-0 md:w-min">
           <input
             value={customerFood}
             onChange={(e) => setcustomerFood(e.target.value)}
